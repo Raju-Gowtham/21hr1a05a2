@@ -1,63 +1,119 @@
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GOWTHAM RAJU</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+  <body>
+    <!-- block and inline level elements -->
 
-<body>
-    <div class="head">
-        <h2 style="color:red">SUPER MAN</h2>
-        <li style="margin-top: -40px;">
-            <BUTTON style="padding-top: -20px;background-color: transparent;" >HOME</BUTTON>
-            <BUTTON style="padding-top: -20px;background-color: transparent;">BIO</BUTTON>
-            <BUTTON style="padding-top: -20px;background-color: transparent;">PORTFOLIO</BUTTON>
-            <BUTTON style="padding-top: -20px;background-color: transparent;">SKILLS</BUTTON>
-            <BUTTON style="padding-top: -20px;">CONTACT</BUTTON>
+    <!-- nav-bar -->
+    <nav class="nav-bar">
+      <ul>
+        <li id="logo">GOWTHAM RAJU</li>
+        <li class="nav-links">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#bio">BIO</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact" class="link-button">CONTACT</a></li>
+          </ul>
         </li>
+      </ul>
+    </nav>
+    <!-- header  -->
+    <header id="home">
+      <div>
+        <h1>Great Things</h1>
+        <h1>Comes from patience</h1>
+      </div>
+    </header>
+    <!-- section 1 -->
+    <section id="bio">
+      <img src="image.png"alt="photo" />
+      <article>
+        <h1>Gowtham Raju</h1>
+        <p>
+          Working hard has been something I’ve not always done well. I’ve not usually been the one to get up early and start getting my tasks done.
 
-    </div>
-    <div class="head2">
-        <div class="main" style="">
-            <h1 style="color:white">I BELIEVE IN</h1>
-            <h1 style="color:white;font-size: 50px;">
-                EAT (); SLEEP (); CODE (); REPEAT ();</h1>
+More often, I wake up late, relax for an hour or two, and then begin my work. By the end of the day I feel like I didn’t have enough time in my day.
+
+But in actuality, I just didn’t efficiently utilize the time that I did have. In the past 30+ days
+        </p>
+        <p>
+          If the goal of work isn’t to earn more and more money so we can buy bigger and bigger houses and fancier and more expensive cars, then what’s the point? If we’ve chosen to measure life’s success in more important terms than material possessions, why would we choose to work hard?
+        </p>
+        <p>
+          Work, by its very nature, presents challenges and growth opportunities. It requires us to improve and develop and become better versions of ourselves.
+        </p>
+        <a href="#" class="link-button">Download My Resume</a>
+      </article>
+    </section>
+    <section id="portfolio">
+      <h2>PORTFOLIO</h2>
+      <p>Some of my best projects so far</p>
+      <hr />
+      <div>
+        <article>
+          
+          <h3>PERSONAL BLOG</h3>
+          <p>A blog where I pen my own thoughts on programming</p>
+        </article>
+        <article>
+         
+          <h3>TIC TAC TOE</h3>
+          <p>Complete Tic Tac Toe game along with GUI using Java</p>
+        </article>
+        <article>
+          
+          <h3>TIME TABLE GENERATOR</h3>
+          <p>A web application for automatic time table generation</p>
+        </article>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>SKILLS</h2>
+      <div class="skill-container">
+        <div>
+          <h3>TECHNICAL SKILLS</h3>
+          <ul>
+            <li>HTML</li>
+            <li><progress value="70" max="100"></progress></li>
+            <li>CSS</li>
+            <li><progress value="70" max="100"></progress></li>
+            <li>JAVA</li>
+            <li><progress value="70" max="100"></progress></li>
+            <li>JAVASCRIPT</li>
+            <li><progress value="70" max="100"></progress></li>
+            <li>ANGULAR</li>
+            <li><progress value="70" max="100"></progress></li>
+          </ul>
         </div>
-
-    </div>
-    <div class="head3">
-
-        <div class="image">
-            <img src="https://ragavivenkatesh.github.io/profile/assets/profile%20picture.png">
-
+        <div>
+          <h3>LANGUAGES</h3>
+          <ul>
+            <li>ENGLISH</li>
+            <li><progress value="70" max="100"></progress></li>
+            <li>KANNADA</li>
+            <li><progress value="70" max="100"></progress></li>
+            <li>HINDI</li>
+            <li><progress value="70" max="100"></progress></li>
+          </ul>
         </div>
-        <div class="head4">
-              <h2 style="color:red">SUPER MAN</h2>
-            <h3><p>
-                I am a passionate Engineer with a degree in Electronics & Communication Engineering. My very first
-                experience with code was at the time when I started my own blog. My struggle to customize the blog pages
-                introduced me to HTML & CSS. Sooner, the excitment of having the power to structure pages on my own
-                sounded amazing and that’s when I decided to purse Web development.
-            </p>
-
-               <p>
-                Recently, I learnt Full Stack Development. I have knowledge of HTML, CSS and JavaScript, Java, C++ and
-                Data Structures. Rational thought process and goal-oriented planning are my strengths.
-               </p> 
-
-                <p>I am currently on the look out for a challenging role to build products that make a difference.</p></h3>
-                <button>Download My Resume</button>
-        </div>
-
-
-    </div>
-    <div class="head5">
-    </div>
-    
-</body>
-
-</html>
+      </div>
+    </section>
+    <footer id="contact">
+      <h2>CONTACT</h2>
+      <form action="">
+        <input class="input" type="text" placeholder="ENTER YOUR NAME" />
+        <input class="input" type="text" placeholder="ENTER YOUR EMAIL" />
+        <input type="text" class="input" placeholder="ENTER YOUR MESSAGE" />
+        <input type="submit" value="Send Message" class="link-button" />
+      </form>
+    </footer>
